@@ -5,7 +5,7 @@
 
 |Component|CSS selector|Variable name|Data type|
 |---------|------------|-------------|---------|
-|Opinion|div.js_product-review|opinion||
+|Opinion|div.js_product-review|opinion|dict|
 |Opinion id|["data-entry-id"]|opinion_id|str|
 |Author|span.user-post__author-name|author|str|
 |Recommendation|span.user-post__author-recomendation > em|recommendation|bool|
@@ -22,3 +22,5 @@
 4. transformation of extracted data to given data types
 
 ## Stage 2 - extraction of all opinions from single page
+
+## Stage 3 - extraction of all opinions for single product
