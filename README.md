@@ -18,9 +18,18 @@
 |Purchase date|span.user-post__published > time:nth-child(2)["datetime"]|purchase_date|str|
 |Usefulness count|span.[id^="votes-yes"]|usefulness|int|
 |Uselessness count|span.[id^="votes-no"]|uselessness|int|
+
 3. extraction of single opinion components
 4. transformation of extracted data to given data types
 
 ## Stage 2 - extraction of all opinions from single page
+1. definition of dictionary to store all components of single opinion  
+2. definition of list for opinions' dictionaries storing
+3. implementation of loop traversing through all opinions from single page
 
 ## Stage 3 - extraction of all opinions for single product
+1. implementation of loop traversing through consecutive pages with options
+2. loading extracted options to .json file
+3. parametrization of product id and reading product id from standart input
+
+## Stage 4 - code refactoring
